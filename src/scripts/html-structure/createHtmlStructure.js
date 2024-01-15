@@ -3,6 +3,7 @@ import { addHeader } from "./layout/addHeader";
 import { addGallowSection } from "./layout/addGallowSection";
 import { addCounterSection } from "./layout/addCounterSection";
 import { addWordSection } from "./layout/addWordSection";
+import { addHintSection } from "./layout/addHintSection";
 
 export const createHtmlStructure = () => {
   const { body } = document;
@@ -13,6 +14,7 @@ export const createHtmlStructure = () => {
   const gallowImage = addGallowSection(appContainer);
   const attemptCounter = addCounterSection(appContainer);
   const wordContainer = addWordSection(appContainer);
+  const hintText = addHintSection(appContainer);
 
-  return { gallowImage, attemptCounter, wordContainer };
+  return { gallowImage, attemptCounter, wordContainer, hintText };
 };

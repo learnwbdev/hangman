@@ -1,14 +1,17 @@
 import "./sass/style.scss";
 import { getQuestionsWithIds } from "./scripts/questions/getQuestionsWithIds";
-import { getRandomQuestion } from "./scripts/questions/getRandomQuestion";
 import { createHtmlStructure } from "./scripts/html-structure/createHtmlStructure";
-import { createLettersForWord } from "./scripts/html-structure/components/createLettersForWord";
+import { showNewWord } from "./scripts/word/showNewWord";
 
 const questions = getQuestionsWithIds();
-const randomQuestion = getRandomQuestion(questions);
+const { gallowImage, attemptCounter, wordContainer, hintText } =
+  createHtmlStructure();
 
-const { gallowImage, attemptCounter, wordContainer } = createHtmlStructure();
-const wordNodes = createLettersForWord(wordContainer, randomQuestion.answer);
+const { randomQuestion, wordNodes } = showNewWord(
+  questions,
+  wordContainer,
+  hintText
+);
 
 console.log(
   `Answer: ${randomQuestion.answer.toUpperCase().split("").join(" ")}`
