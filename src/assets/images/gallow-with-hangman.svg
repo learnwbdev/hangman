@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="468" height="652" fill="none" viewBox="0 0 468 652">
+  <g filter="url(#a)">
+    <path fill="#6C5742" fill-opacity=".8" fill-rule="evenodd" d="M464 9c0-2.76142-2.239-5-5-5H8.99995c-2.76142 0-5 2.23858-5 5v35c0 2.7614 2.23858 5 5 5H42.529l61.974 87.262v396.505L22.6638 648h29.4514l52.3878-73.765V644c0 1.636.786 3.088 2 4h34.029c1.215-.912 2-2.364 2-4v-69.954L195.055 648h29.451l-81.974-115.423V136.179L204.447 49H392v102h9V49h58c2.761 0 5-2.2386 5-5V9ZM104.503 49v45.7937L71.9804 49h32.5226Zm38.029 45.7107V49h32.464l-32.464 45.7107Z" clip-rule="evenodd"/>
+  </g>
+  <g fill-opacity="0" stroke-opacity="0">
+    <circle cx="396" cy="195" r="40" stroke="#201A13" stroke-width="10"/>
+    <rect width="10" height="120" x="391" y="236" fill="#201A13" rx="5"/>
+    <rect width="10" height="90" x="392.855" y="237.686" fill="#201A13" rx="5" transform="rotate(-45 392.855 237.686)"/>
+    <rect width="10" height="90" x="388.711" y="233" fill="#201A13" rx="5" transform="rotate(45 388.711 233)"/>
+    <rect width="10" height="110" x="393.418" y="347.892" fill="#201A13" rx="5" transform="rotate(30 393.418 347.892)"/>
+    <rect width="10" height="110" x="389" y="352" fill="#201A13" rx="5" transform="rotate(-30 389 352)"/>
+  </g>
+  <defs>
+    <filter id="a" width="468" height="652" x="-.00004578" y="0" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse">
+      <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+      <feBlend in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+      <feGaussianBlur result="effect1_foregroundBlur_4024_590" stdDeviation="2"/>
+    </filter>
+  </defs>
+</svg>
