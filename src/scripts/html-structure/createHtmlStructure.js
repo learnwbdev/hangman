@@ -1,6 +1,8 @@
 import { addAppContainer } from "./addAppContainer";
+import { addHeader } from "./layout/addHeader";
 
 const { body } = document;
 body.classList.add("page");
 
-addAppContainer(body);
+const appContainer = addAppContainer(body);
+addHeader(appContainer);
