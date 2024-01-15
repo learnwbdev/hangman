@@ -1,0 +1,252 @@
+[
+  {
+    "category": "biology",
+    "hint": "An organism that is killed and/or eaten by another organism",
+    "answer": "prey"
+  },
+  {
+    "category": "ocean",
+    "hint": "Organisms that live on the ocean floor.",
+    "answer": "benthos"
+  },
+  {
+    "category": "ocean",
+    "hint": "The gravitational pull of this causes tides.",
+    "answer": "moon"
+  },
+  {
+    "category": "ocean",
+    "hint": "The area that extends from the low-tide line to the edge of the continental shelf.",
+    "answer": "neritic"
+  },
+  {
+    "category": "ocean",
+    "hint": "One form of nektonic live.",
+    "answer": "squid"
+  },
+  {
+    "category": "ocean",
+    "hint": "One element that is abundant in the ocean.",
+    "answer": "hydrogen"
+  },
+  {
+    "category": "ocean",
+    "hint": "Destructive waves that are usually caused by earthquakes or landslides.",
+    "answer": "tsunamis"
+  },
+  {
+    "category": "ocean",
+    "hint": "One factor that affects ocean life.",
+    "answer": "sunlight"
+  },
+  {
+    "category": "ocean",
+    "hint": "Region that extends to an average depth of 6000 meters.",
+    "answer": "abyssal"
+  },
+  {
+    "category": "ocean",
+    "hint": "One form of benthic life.",
+    "answer": "oysters"
+  },
+  {
+    "category": "ocean",
+    "hint": "The zone of the sea that extends to a depth of about 2000 meters.",
+    "answer": "bathyal"
+  },
+  {
+    "category": "ocean",
+    "hint": "The highest point of a wave.",
+    "answer": "crest"
+  },
+  {
+    "category": "ocean",
+    "hint": "The lowest point of a wave.",
+    "answer": "trough"
+  },
+  {
+    "category": "ocean",
+    "hint": "Animals and plants that float at or near the surface of the ocean.",
+    "answer": "plankton"
+  },
+  {
+    "category": "general",
+    "hint": "An object in space that produces its own heat and light.",
+    "answer": "star"
+  },
+  {
+    "category": "general",
+    "hint": "Of or related to the Moon.",
+    "answer": "lunar"
+  },
+  {
+    "category": "general",
+    "hint": "A huge piece of Earth's crust that moves very slowly.",
+    "answer": "plate"
+  },
+  {
+    "category": "general",
+    "hint": "A large flat area of land at the mouth of a river.",
+    "answer": "delta"
+  },
+  {
+    "category": "general",
+    "hint": "A streak of light made by a burning meteoroid in Earth's atmosphere.",
+    "answer": "meteor"
+  },
+  {
+    "category": "general",
+    "hint": "The measure of the amount of matter an object contains.",
+    "answer": "mass"
+  },
+  {
+    "category": "general",
+    "hint": "A natural structure on Earth's surface.",
+    "answer": "landform"
+  },
+  {
+    "category": "volcanoes",
+    "hint": "The name for magma that reaches the Earth's surface.",
+    "answer": "lava"
+  },
+  {
+    "category": "volcanoes",
+    "hint": "The hole left when a volcano collapses.",
+    "answer": "caldera"
+  },
+  {
+    "category": "volcanoes",
+    "hint": "A bowl-shaped area that may form at the top of a volcano around the central vent.",
+    "answer": "crater"
+  },
+  {
+    "category": "volcanoes",
+    "hint": "An opening where molten rock and gas leave a volcano.",
+    "answer": "vent"
+  },
+  {
+    "category": "volcanoes",
+    "hint": "Magma that forces itself across rock layers hardens into this landform.",
+    "answer": "dike"
+  },
+  {
+    "category": "volcanoes",
+    "hint": "A molten mixture of rock-forming substances, gases, and water from the mantle.",
+    "answer": "magma"
+  },
+  {
+    "category": "volcanoes",
+    "hint": "Magma that squeezes between horizontal rock layers hardens to form this land feature.",
+    "answer": "sill"
+  },
+  {
+    "category": "earth",
+    "hint": "Evidence of past life preserved in rock.",
+    "answer": "fossil"
+  },
+  {
+    "category": "earth",
+    "hint": "An explanation that ties together many hypothesis and observations.",
+    "answer": "theory"
+  },
+  {
+    "category": "earth",
+    "hint": "The largest division of geologic time.",
+    "answer": "eon"
+  },
+  {
+    "category": "earth",
+    "hint": "A subdivision of the eras in geologic time.",
+    "answer": "period"
+  },
+  {
+    "category": "earth",
+    "hint": "The most specific classification of living things.",
+    "answer": "species"
+  },
+  {
+    "category": "earth",
+    "hint": "A random change to a gene that results in a new trait.",
+    "answer": "mutation"
+  },
+  {
+    "category": "earth",
+    "hint": "A unit of geologic time that includes two or more periods.",
+    "answer": "era"
+  },
+  {
+    "category": "erosion",
+    "hint": "Always pulls things from high places to low places.",
+    "answer": "gravity"
+  },
+  {
+    "category": "erosion",
+    "hint": "A huge sheet of moving ice.",
+    "answer": "glacier"
+  },
+  {
+    "category": "erosion",
+    "hint": "A jumble of many sizes of sediment.",
+    "answer": "till"
+  },
+  {
+    "category": "erosion",
+    "hint": "A teardrop-shaped pile of jumbled sediment.",
+    "answer": "drumlin"
+  },
+  {
+    "category": "erosion",
+    "hint": "The breaking down of rock material and carrying it away.",
+    "answer": "erosion"
+  },
+  {
+    "category": "erosion",
+    "hint": "Curves that develop in an old river.",
+    "answer": "meanders"
+  },
+  {
+    "category": "weather",
+    "hint": "Winds may top 250 mph.",
+    "answer": "tornado"
+  },
+  {
+    "category": "weather",
+    "hint": "A pattern of weather.",
+    "answer": "climate"
+  },
+  {
+    "category": "weather",
+    "hint": "When there is too much water for the ground to absorb.",
+    "answer": "flood"
+  },
+  {
+    "category": "erosion",
+    "hint": "Wearing away of rock; caused by wind.",
+    "answer": "abrasion"
+  },
+  {
+    "category": "ocean",
+    "hint": "A wave carries this.",
+    "answer": "energy"
+  },
+  {
+    "category": "ocean",
+    "hint": "A water mass moving in one direction.",
+    "answer": "current"
+  },
+  {
+    "category": "ocean",
+    "hint": "A rhythmic movement that carries energy through matter or space.",
+    "answer": "wave"
+  },
+  {
+    "category": "ocean",
+    "hint": "A mountain on the ocean floor that is completely underwater.",
+    "answer": "seamount"
+  },
+  {
+    "category": "ocean",
+    "hint": "The measure of the amount of salts dissolved in seawater.",
+    "answer": "salinity"
+  }
+]
