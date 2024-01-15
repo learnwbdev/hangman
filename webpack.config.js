@@ -64,7 +64,7 @@ module.exports = {
         },
         {
           from: path.resolve("src/assets/images/"),
-          to: path.resolve("dist/assets/images"),
+          to: path.resolve("dist/assets/images/"),
         },
       ],
     }),
