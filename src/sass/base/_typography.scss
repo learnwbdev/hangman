@@ -6,3 +6,113 @@ html {
   font-weight: 400;
   font-style: normal;
 }
+
+@mixin keypad-letter-font {
+  font-size: 1.875rem;
+  font-weight: 700;
+  line-height: 1;
+  text-transform: uppercase;
+}
+
+// Desktop
+@mixin text-header-desktop {
+  font-size: 3rem;
+  font-weight: 600;
+  line-height: 1.2;
+  letter-spacing: 0.0075rem;
+  text-transform: uppercase;
+}
+
+@mixin text-subheader-desktop {
+  font-size: 2.5rem;
+  font-weight: 700;
+  line-height: 1.4;
+  letter-spacing: 0.00625rem;
+}
+
+@mixin text-medium-desktop {
+  font-size: 1.5rem;
+  font-weight: 500;
+  line-height: 1.4;
+}
+
+@mixin answer-font-desktop {
+  font-size: 3.125rem;
+  font-weight: 700;
+  line-height: 1;
+  text-transform: uppercase;
+}
+
+// Tablet
+@mixin text-header-tablet {
+  font-size: 2.25rem;
+  font-weight: 600;
+  line-height: 1.2;
+  letter-spacing: 0.00563rem;
+  text-transform: uppercase;
+}
+
+@mixin text-subheader-tablet {
+  font-size: 1.875rem;
+  font-weight: 700;
+  line-height: 1.4;
+  letter-spacing: 0.00469rem;
+}
+
+@mixin text-medium-tablet {
+  font-size: 1.1875rem;
+  font-weight: 500;
+  line-height: 1.25;
+  letter-spacing: 0.003rem;
+}
+
+@mixin answer-font-tablet-portrait {
+  font-size: 3.125rem;
+  font-weight: 700;
+  line-height: 1;
+  text-transform: uppercase;
+}
+
+@mixin answer-font-tablet-landscape {
+  font-size: 2.8125rem;
+  font-weight: 700;
+  line-height: 1;
+  text-transform: uppercase;
+}
+
+// Mobile
+@mixin text-header-mobile {
+  font-size: 1.5rem;
+  font-weight: 600;
+  line-height: 1.2;
+  letter-spacing: 0.00375rem;
+  text-transform: uppercase;
+}
+
+@mixin text-subheader-mobile {
+  font-size: 1.5rem;
+  font-weight: 700;
+  line-height: 1.4;
+  letter-spacing: 0.00469rem;
+}
+
+@mixin text-medium-mobile {
+  font-size: 1rem;
+  font-weight: 500;
+  line-height: 1.25;
+  letter-spacing: 0.0025rem;
+}
+
+@mixin answer-font-mobile-portrait {
+  font-size: 1.875rem;
+  font-weight: 700;
+  line-height: 1;
+  text-transform: uppercase;
+}
+
+@mixin answer-font-mobile-landscape {
+  font-size: 2.1875rem;
+  font-weight: 700;
+  line-height: 1;
+  text-transform: uppercase;
+}
