@@ -1,7 +1,7 @@
-export const createElementWithClasses = (tagName, classListArray) => {
+export const createElementWithClasses = (tagName, classListString) => {
   const elementWithClasses = document.createElement(tagName);
-  if (classListArray) {
-    elementWithClasses.classList.add(...classListArray);
+  if (classListString && classListString !== "") {
+    elementWithClasses.classList.add(...classListString.split(" "));
   }
 
   return elementWithClasses;
