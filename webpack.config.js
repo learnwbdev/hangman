@@ -1,5 +1,6 @@
 const HtmlWebpackPlugin = require("html-webpack-plugin");
 const ESLintPlugin = require("eslint-webpack-plugin");
+const CopyPlugin = require("copy-webpack-plugin");
 const path = require("path");
 
 module.exports = {
@@ -53,6 +54,18 @@ module.exports = {
       title: "Hangman Game",
       filename: "index.html",
       template: "src/template.html",
+    }),
+    new CopyPlugin({
+      patterns: [
+        {
+          from: path.resolve("src/favicon.ico"),
+          to: path.resolve("dist"),
+        },
+        {
+          from: path.resolve("src/assets/images/"),
+          to: path.resolve("dist/assets/images"),
+        },
+      ],
     }),
     new ESLintPlugin(),
   ],
