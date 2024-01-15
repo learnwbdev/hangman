@@ -1,0 +1,8 @@
+@use 'sass:color';
+
+@function set-alpha($color, $alpha) {
+  $alpha-delta: $alpha - alpha($color);
+  $color-new: color.adjust($color, $alpha: $alpha-delta);
+
+  @return $color-new;
+}
