@@ -1,0 +1,22 @@
+@use "functions";
+
+// Colors
+$color-primary: #f7b6b0;
+$color-secondary: #b6c7d1;
+$color-backdrop: #201a13;
+$color-accent: #57231d;
+$color-on-backdrop: #f7b6b0;
+$color-neutral: #6C5742;
+
+$bg-color: functions.set-alpha($color-secondary, 0.80);
+$header-bg-color: functions.set-alpha($color-backdrop, 0.40);
+$container-second-color: functions.set-alpha($color-secondary, 0.80);
+$container-primar-color: functions.set-alpha($color-primary, 0.80);
+$gallow-color: functions.set-alpha($color-neutral, 0.80);
+$hangman-color: functions.set-alpha($color-backdrop, 0.95);
+$key-bg-color-active: functions.set-alpha($color-backdrop, 0.80);
+$key-bg-color-inactv: functions.set-alpha($color-backdrop, 0.20);
+
+$text-color-basic: $color-backdrop;
+$text-color-on-backdrop: $color-on-backdrop;
+$text-color-accent: $color-accent;
