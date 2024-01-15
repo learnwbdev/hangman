@@ -1,6 +1,8 @@
 .app-container {
   display: grid;
+  column-gap: 12rem;
   grid-template-areas:
     "header header"
-    "gallow counter";
+    "gallow counter"
+    "gallow word";
 }

@@ -1,0 +1,38 @@
+@use "../abstracts/variables";
+@use "../base/typography";
+
+.word {
+  display: flex;
+  justify-content: center;
+  grid-area: word;
+  max-width: 44.25rem;
+  width: 100%;
+}
+
+.word__container {
+  display: flex;
+  justify-content: space-between;
+  gap: 2rem;
+}
+
+.word__letter {
+  @include typography.answer-font-desktop;
+  width: 3.75rem;
+  height: 4.5rem;
+  border-radius: 0.3125rem;
+  background-color: variables.$container-primar-color;
+  color: variables.$text-color-basic;
+  padding: 0.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  box-sizing: border-box;
+}
+
+.letter__line {
+  width: 2.75rem;
+  height: 0.5rem;
+  background-color: variables.$text-color-basic;
+  border-radius: 0.25rem;
+}
