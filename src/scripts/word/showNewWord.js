@@ -1,10 +1,22 @@
 import { createLettersForWord } from "../html-structure/components/createLettersForWord";
 import { getRandomQuestion } from "../questions/getRandomQuestion";
+import { setRandomQuestion, setWordNodesArray } from "./getSetCurrentWord";
+import { wordContainer, hintText } from "../html-structure/createHtmlStructure";
+import { resetAttemptCounter } from "../counter/resetAttemptCounter";
 
-export const showNewWord = (questions, wordContainer, hintText) => {
-  const randomQuestion = getRandomQuestion(questions);
-  const wordNodes = createLettersForWord(wordContainer, randomQuestion.answer);
-  hintText.append(randomQuestion.hint);
+export const showNewWord = () => {
+  resetAttemptCounter();
+  const newRandomQuestion = getRandomQuestion();
+  const wordNodes = createLettersForWord(
+    wordContainer,
+    newRandomQuestion.answer
+  );
 
-  return { randomQuestion, wordNodes };
+  setRandomQuestion(newRandomQuestion);
+  setWordNodesArray(wordNodes);
+  hintText.append(newRandomQuestion.hint);
+
+  console.log(
+    `Answer: ${newRandomQuestion.answer.toUpperCase().split("").join(" ")}`
+  );
 };

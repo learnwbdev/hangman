@@ -1,6 +1,7 @@
 import { idSymbol } from "../common-variables";
+import { questions } from "./getQuestionsWithIds";
 
-export const getRandomQuestion = (questions) => {
+export const getRandomQuestion = () => {
   const questionsQty = questions.length;
   const randomId = Math.floor(Math.random() * questionsQty);
 
