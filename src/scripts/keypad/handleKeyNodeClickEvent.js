@@ -5,6 +5,10 @@ import {
   isKeypadNodeActive,
 } from "../html-structure/createKeypad";
 import { showModalRestart } from "../modals/modal-restart/showModalRestart";
+import {
+  attemptCounter,
+  maxWrongAnswers,
+} from "../counter/getSetAttemptCounter";
 
 export const handleKeyNodeClickEvent = (event, pressedLetter, keyNodeIndex) => {
   const eventKeyNode = event.target;
@@ -12,6 +16,9 @@ export const handleKeyNodeClickEvent = (event, pressedLetter, keyNodeIndex) => {
     return;
   }
   if (!isKeypadNodeActive(keyNodeIndex)) {
+    return;
+  }
+  if (attemptCounter.value >= maxWrongAnswers) {
     return;
   }
   const answerLetters = currentWord.question
