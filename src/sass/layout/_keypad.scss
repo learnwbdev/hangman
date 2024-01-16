@@ -1,0 +1,47 @@
+@use "../abstracts/variables";
+@use "../base/typography";
+
+.keypad {
+  grid-area: keypad;
+}
+
+.keypad__container {
+  display: flex;
+  justify-content: center;
+  gap: 2.25rem;
+  flex-wrap: wrap;
+}
+
+.keypad__key {
+  @include typography.keypad-letter-font;
+  width: 2.75rem;
+  height: 2.75rem;
+  background-color: variables.$key-bg-color-active;
+  color: variables.$text-color-on-backdrop;
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+  text-align: center;
+  padding: 0.5rem;
+  box-shadow: 0.5rem 0.5rem 0.75rem variables.$key-bg-color-inactv;
+  transition: all 0.3s ease-out;
+  border: 2px solid variables.$key-bg-color-active;
+  border-radius: 0.625rem;
+  box-sizing: border-box;
+  pointer-events: auto;
+}
+
+@media (hover: hover) {
+  .keypad__key:hover {
+    background-color: variables.$text-color-on-backdrop;
+    color: variables.$text-color-basic;
+    border: 2px solid variables.$key-bg-color-active;
+    cursor: pointer;
+  }
+}
+
+.keypad__key_inactive {
+  background-color: variables.$key-bg-color-inactv;
+  color: variables.$text-color-basic;
+  pointer-events: none;
+}

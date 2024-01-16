@@ -36,3 +36,7 @@
   background-color: variables.$text-color-basic;
   border-radius: 0.25rem;
 }
+
+.word__letter_open .letter__line {
+  display: none;
+}

@@ -8,6 +8,7 @@ html {
   display: flex;
   justify-content: center;
   background-color: variables.$bg-color;
+  user-select: none;
 }
 
 .app-container {
