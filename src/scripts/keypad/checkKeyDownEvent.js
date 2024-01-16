@@ -1,5 +1,8 @@
 import { keyPadLetters } from "../common-variables";
-import { showModalOnlyEngLetters } from "../modals/modal-lang/showModalOnlyEngLetters";
+import {
+  hideMsgOnlyEngLetters,
+  showMsgOnlyEngLetters,
+} from "../html-structure/message/showMsgOnlyEngLetters";
 
 export const checkKeyDownEvent = (event, keypadNodes) => {
   const keyPressed = event.key;
@@ -19,6 +22,7 @@ export const checkKeyDownEvent = (event, keypadNodes) => {
   if (letterIdx >= 0) {
     keypadNodes[letterIdx].node.dispatchEvent(new Event("click"));
   } else {
-    showModalOnlyEngLetters();
+    showMsgOnlyEngLetters();
+    setTimeout(() => hideMsgOnlyEngLetters(), 2000);
   }
 };

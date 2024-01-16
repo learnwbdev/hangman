@@ -1,0 +1,29 @@
+@use "../abstracts/variables";
+@use "../base/typography";
+
+.msg-only-eng {
+  @include typography.text-medium-desktop;
+  max-width: 30rem;
+  max-height: 20rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: variables.$key-bg-color-active;
+  color: variables.$text-color-on-backdrop;
+  border-radius: 1.5rem;
+  padding: 1rem;
+  box-sizing: border-box;
+  z-index: 50;
+  position: fixed;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%, 0);
+  box-shadow: 0.5rem 0.5rem 0.75rem variables.$key-bg-color-inactv;
+  pointer-events: none;
+  transition: all 5s ease-out;
+}
+
+.msg-only-eng_hidden {
+  display: none;
+}
