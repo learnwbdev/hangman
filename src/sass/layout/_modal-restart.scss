@@ -27,6 +27,8 @@
   top: 0;
   left: 0;
   background-color: variables.$key-bg-color-active;
+  pointer-events: auto;
+  z-index: 1;
 }
 
 .modal-restart__container {
@@ -60,7 +62,6 @@
   gap: 2.5rem;
   justify-content: center;
   align-items: flex-start;
-
 }
 
 .modal-restart__title {
