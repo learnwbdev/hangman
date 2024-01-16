@@ -1,5 +1,5 @@
 import { keyPadLetters } from "../common-variables";
-import { showModalOnlyEngLetters } from "../modals/showModalOnlyEngLetters";
+import { showModalOnlyEngLetters } from "../modals/modal-lang/showModalOnlyEngLetters";
 
 export const checkKeyDownEvent = (event, keypadNodes) => {
   const keyPressed = event.key;

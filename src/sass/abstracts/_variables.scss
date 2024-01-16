@@ -20,3 +20,4 @@ $key-bg-color-inactv: functions.set-alpha($color-backdrop, 0.20);
 $text-color-basic: $color-backdrop;
 $text-color-on-backdrop: $color-on-backdrop;
 $text-color-accent: $color-accent;
+$text-color-basic-inactive: functions.set-alpha($color-backdrop, 0.70);

@@ -2,10 +2,10 @@ import { createLettersForWord } from "../html-structure/components/createLetters
 import { getRandomQuestion } from "../questions/getRandomQuestion";
 import { setRandomQuestion, setWordNodesArray } from "./getSetCurrentWord";
 import { wordContainer, hintText } from "../html-structure/createHtmlStructure";
-import { resetAttemptCounter } from "../counter/resetAttemptCounter";
+import { resetViewFromLastWord } from "./resetViewFromLastWord";
 
 export const showNewWord = () => {
-  resetAttemptCounter();
+  resetViewFromLastWord();
   const newRandomQuestion = getRandomQuestion();
   const wordNodes = createLettersForWord(
     wordContainer,

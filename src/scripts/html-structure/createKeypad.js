@@ -11,8 +11,21 @@ const disableKeypadNode = (keyIndex) => {
   keypadNodes[keyIndex].node.classList.add("keypad__key_inactive");
 };
 
+const enableAllKeypadNodes = () => {
+  keypadNodes.forEach((_, keyIndex) => {
+    keypadNodes[keyIndex].active = true;
+    keypadNodes[keyIndex].node.disabled = false;
+    keypadNodes[keyIndex].node.classList.remove("keypad__key_inactive");
+  });
+};
+
 const isKeypadNodeActive = (keyIndex) => {
   return keypadNodes[keyIndex].active;
 };
 
-export { keypadNodes, disableKeypadNode, isKeypadNodeActive };
+export {
+  keypadNodes,
+  disableKeypadNode,
+  isKeypadNodeActive,
+  enableAllKeypadNodes,
+};

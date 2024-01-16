@@ -1,0 +1,125 @@
+@use "../abstracts/variables";
+@use "../base/typography";
+
+.modal-restart {
+  display: none;
+  opacity: 0;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  transition: all 0.5s ease-in;
+  justify-content: center;
+  align-items: center;
+  padding: 1.125rem;
+}
+
+.modal__restart_open {
+  display: flex;
+  opacity: 1;
+}
+
+.modal-restart__backdrop {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background-color: variables.$key-bg-color-active;
+}
+
+.modal-restart__container {
+  min-width: 50rem;
+  min-height: 31.5rem;
+  background-color: variables.$color-primary;
+  color: variables.$text-color-basic;
+  border-radius: 2.5rem;
+  box-sizing: border-box;
+  padding: 3.75rem 8.125rem;
+  padding-bottom: 2.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1.25rem;
+  margin-bottom: 0.375rem;
+  user-select: none;
+  z-index: 2;
+  transition: all 0.3s ease-in;
+}
+
+.modal-restart__container_win {
+  background-color: variables.$color-secondary;
+}
+
+.modal-restart__header {
+  @include typography.text-header-desktop;
+  color: variables.$color-accent;
+  display: flex;
+  gap: 2.5rem;
+  justify-content: center;
+  align-items: flex-start;
+
+}
+
+.modal-restart__title {
+  @include typography.text-header-desktop;
+  color: variables.$color-accent;
+}
+
+.modal-restart__img {
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+}
+
+.modal-restart__subtitle {
+  @include typography.text-subheader-desktop;
+  color: variables.$color-accent;
+}
+
+.modal-restart__subtitle_basic {
+  color: variables.$text-color-basic;
+}
+
+.modal-restart__text,
+.modal-restart__answer {
+  @include typography.text-subheader-desktop;
+  color: variables.$text-color-basic;
+}
+
+.modal-restart__text_lighter,
+.modal-restart__answer__lighter {
+  color: variables.$text-color-basic-inactive;
+}
+
+.modal-restart__answer {
+  text-transform: uppercase;
+}
+
+.modal-restart__button {
+  @include typography.text-subheader-desktop;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: variables.$key-bg-color-active;
+  color: variables.$text-color-on-backdrop;
+  border: 2px solid variables.$key-bg-color-active;
+  min-width: 21.125rem;
+  min-height: 5rem;
+  box-sizing: border-box;
+  border-radius: 2.5rem;
+  transition: all 0.3s ease-out;
+  pointer-events: auto;
+  cursor: pointer;
+}
+
+@media (hover: hover) {
+  .modal-restart__button:hover {
+    background-color: variables.$text-color-on-backdrop;
+    color: variables.$text-color-basic;
+    border: 2px solid variables.$key-bg-color-active;
+    cursor: pointer;
+  }
+}
