@@ -13,7 +13,7 @@
   justify-content: flex-start;
   align-items: center;
   gap: 0.375rem;
-  padding: 1rem;
+  padding: 0.75rem;
   border-radius: 0.625rem;
   background-color: variables.$container-primar-color;
   color: variables.$text-color-basic;
@@ -31,4 +31,5 @@
 .hint__text {
   @include typography.text-medium-desktop;
   text-align: center;
+  line-height: 1.2;
 }
