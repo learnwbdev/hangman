@@ -40,7 +40,7 @@ export const handleKeyNodeClickEvent = (event, pressedLetter, keyNodeIndex) => {
     );
     if (isAllLettersOpen) {
       const isGameOver = false;
-      showModalRestart(isGameOver);
+      setTimeout(() => showModalRestart(isGameOver), 400);
     }
   } else {
     increaseAttemptCounterByOne();
