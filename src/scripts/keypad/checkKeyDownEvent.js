@@ -10,6 +10,7 @@ export const checkKeyDownEvent = (event, keypadNodes) => {
     return;
   }
   if (
+    keyPressed === "F12" ||
     keyPressed === "Shift" ||
     keyPressed === "Alt" ||
     keyPressed === "Control"
