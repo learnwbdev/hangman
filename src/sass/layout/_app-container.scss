@@ -1,13 +1,8 @@
 .app-container {
+  background-image: url("../assets/images/bg-image.jpg");
+  background-repeat: no-repeat;
   display: grid;
-  column-gap: 12rem;
-  row-gap: 2.5rem;
-  grid-template-areas:
-    "header header"
-    "gallow counter"
-    "gallow word"
-    "gallow hint"
-    "gallow keypad";
   box-sizing: border-box;
   pointer-events: none;
+  transition: background-position 0.5s ease-out;
 }

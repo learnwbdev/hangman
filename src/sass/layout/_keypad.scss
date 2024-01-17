@@ -3,12 +3,14 @@
 
 .keypad {
   grid-area: keypad;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .keypad__container {
   display: flex;
   justify-content: center;
-  gap: 2.25rem;
   flex-wrap: wrap;
 }
 

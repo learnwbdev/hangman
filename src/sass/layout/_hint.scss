@@ -3,11 +3,13 @@
 
 .hint {
   grid-area: hint;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .hint__container {
-  min-width: 44.25rem;
-  min-height: 9.3125rem;
+  max-height: 9.25rem;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
@@ -17,7 +19,6 @@
   border-radius: 0.625rem;
   background-color: variables.$container-primar-color;
   color: variables.$text-color-basic;
-  max-height: 9.25rem;
   box-sizing: border-box;
 }
 

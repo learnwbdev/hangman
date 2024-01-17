@@ -10,16 +10,15 @@
 .counter__container {
   @include typography.text-medium-desktop;
   font-weight: 600;
-  width: 13.75rem;
-  height: 6rem;
   border-radius: 0.625rem;
   background-color: variables.$container-second-color;
   color: variables.$text-color-basic;
-  padding: 1rem;
+  padding: 0.875rem;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   align-items: flex-end;
+  box-sizing: border-box;
 }
 
 .counter__attempts {
