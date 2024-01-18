@@ -2,6 +2,7 @@
   background-image: url("../assets/images/bg-image.jpg");
   background-repeat: no-repeat;
   display: grid;
+  align-items: center;
   box-sizing: border-box;
   pointer-events: none;
   transition: background-position 0.5s ease-out;

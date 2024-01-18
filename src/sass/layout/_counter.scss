@@ -4,6 +4,7 @@
 .counter {
   display: flex;
   justify-content: flex-end;
+  align-self: safe start;
   grid-area: counter;
 }
 
@@ -19,6 +20,10 @@
   justify-content: space-between;
   align-items: flex-end;
   box-sizing: border-box;
+}
+
+.counter__title {
+  text-align: start;
 }
 
 .counter__attempts {

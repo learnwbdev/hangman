@@ -10,7 +10,7 @@
 
 .word__container {
   display: flex;
-  justify-content: flex-end;
+  justify-content: space-between;
   align-items: center;
 }
 
@@ -35,4 +35,5 @@
 
 .word__letter_open .letter__line {
   display: none;
+  height: 0;
 }
